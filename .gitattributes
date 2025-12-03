@@ -1,0 +1,30 @@
+# Unity-стандартные настройки
+*.cs text=auto
+*.cginc text=auto
+*.shader text=auto
+*.txt text=auto
+*.json text=auto
+*.xml text=auto
+*.meta text=auto
+*.prefab text=auto
+*.asset text=auto
+*.mat text=auto
+*.unity text=auto
+*.anim text=auto
+*.controller text=auto
+*.physicMaterial text=auto
+*.physicsMaterial2D text=auto
+*.renderTexture text=auto
+*.mask text=auto
+
+# Бинарные файлы и кэш — не трогать окончания строк и не пытаться делать diff
+Library/* -text
+Temp/* -text
+Obj/* -text
+Build/* -text
+Builds/* -text
+Logs/* -text
+UserSettings/* -text
+
+# PackageCache тоже не заливаем вообще (самый правильный вариант)
+Library/PackageCache/** -text

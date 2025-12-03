@@ -1,0 +1,11 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Не заливаем кэш пакетов (он весит гигабайты и восстанавливается сам)
+/Library/PackageCache/
+# ← самая важная строка
