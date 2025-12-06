@@ -15,7 +15,7 @@ C:/Users/eminj/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/7 semestr/Р Р°Р·СЂР°Р±РѕС‚РєР° Р
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50526
+59498
 Successfully changed project path to: C:/Users/eminj/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/7 semestr/Р Р°Р·СЂР°Р±РѕС‚РєР° РјСѓР»СЊС‚РёРјРµРґРёР№РЅС‹С…/O7/O7_scene
 C:/Users/eminj/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/7 semestr/Р Р°Р·СЂР°Р±РѕС‚РєР° РјСѓР»СЊС‚РёРјРµРґРёР№РЅС‹С…/O7/O7_scene
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,17 +49,17 @@ C:/Users/eminj/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/7 semestr/Р Р°Р·СЂР°Р±РѕС‚РєР° Р
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11484]  Target information:
+Player connection [23264]  Target information:
 
-Player connection [11484]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1293766471 [EditorId] 1293766471 [Version] 1048832 [Id] WindowsEditor(7,d15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23264]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1462154575 [EditorId] 1462154575 [Version] 1048832 [Id] WindowsEditor(7,d15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11484]  * "[IP] 192.168.31.239 [Port] 0 [Flags] 2 [Guid] 1293766471 [EditorId] 1293766471 [Version] 1048832 [Id] WindowsEditor(7,d15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23264]  * "[IP] 192.168.31.239 [Port] 0 [Flags] 2 [Guid] 1462154575 [EditorId] 1462154575 [Version] 1048832 [Id] WindowsEditor(7,d15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11484] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11484] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23264] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-Refreshing native plugins compatible for Editor in 23.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 180.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
@@ -75,44 +75,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016828 seconds.
-- Loaded All Assemblies, in  0.565 seconds
+Registered in 0.017374 seconds.
+- Loaded All Assemblies, in  1.883 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.377 seconds
-Domain Reload Profiling: 939ms
-	BeginReloadAssembly (183ms)
+- Finished resetting the current domain, in  0.395 seconds
+Domain Reload Profiling: 2275ms
+	BeginReloadAssembly (374ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (93ms)
-	LoadAllAssembliesAndSetupDomain (218ms)
-		LoadAssemblies (180ms)
+	RebuildCommonClasses (300ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (1071ms)
+		LoadAssemblies (373ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (192ms)
+		AnalyzeDomain (1066ms)
+			TypeCache.Refresh (1064ms)
+				TypeCache.ScanAssembly (592ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (378ms)
+	FinalizeReload (396ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
+		SetupLoadedEditorAssemblies (325ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,50 +121,50 @@ Domain Reload Profiling: 939ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.926 seconds
+- Loaded All Assemblies, in  2.628 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.762 seconds
-Domain Reload Profiling: 1683ms
-	BeginReloadAssembly (226ms)
+- Finished resetting the current domain, in  0.818 seconds
+Domain Reload Profiling: 3441ms
+	BeginReloadAssembly (233ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (574ms)
-		LoadAssemblies (468ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (2267ms)
+		LoadAssemblies (2127ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (199ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (763ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (819ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (581ms)
+		SetupLoadedEditorAssemblies (620ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (444ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (479ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 6.09 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 7.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3253 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3721.
-Memory consumption went from 122.8 MB to 122.8 MB.
-Total: 4.828900 ms (FindLiveObjects: 0.316000 ms CreateObjectMapping: 0.179200 ms MarkObjects: 4.237700 ms  DeleteObjects: 0.094900 ms)
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (103.8 KB). Loaded Objects now: 4129.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 5.224700 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.209000 ms MarkObjects: 4.534700 ms  DeleteObjects: 0.127700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,222 +182,205 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 569786.173578 seconds.
-  path: Assets/Materials/Poliigon_WoodVeneerOak_7760_Metallic.jpg
-  artifactKey: Guid(e3369856c1f0fb8409f6eb97a9689f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Poliigon_WoodVeneerOak_7760_Metallic.jpg using Guid(e3369856c1f0fb8409f6eb97a9689f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'f05bb510b62f7c7cafa47bff32b73fa9') in 0.078325 seconds
+  Time since last request: 866829.089087 seconds.
+  path: Assets/Mini First Person Controller/Audio
+  artifactKey: Guid(99e4c92d4c395a74aa163e79c8149872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio using Guid(99e4c92d4c395a74aa163e79c8149872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '157766ace59c598fa515d8d5af9dafb9') in 0.002857 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 45.755035 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Scenes/Demo/ReflectionProbe-1.exr
-  artifactKey: Guid(40a227f451ff05643921346a4b8266e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Demo/ReflectionProbe-1.exr using Guid(40a227f451ff05643921346a4b8266e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 547.395768 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Scenes/Light.mat
+  artifactKey: Guid(7bb4d41d8be498b418e107b9fcd42bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Light.mat using Guid(7bb4d41d8be498b418e107b9fcd42bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'cb4a3e01d4f4c3a1d5eb5d122f416ded') in 0.081912 seconds
+ -> (artifact id: '1b151347c185653bdaea9933dd8a3b19') in 0.138057 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 12.382915 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_light.exr
-  artifactKey: Guid(a8de4f8c08bdcc141b343aa3d9560176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_light.exr using Guid(a8de4f8c08bdcc141b343aa3d9560176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 18.450568 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V2.mat
+  artifactKey: Guid(8bf0befb68296734682237e45c19dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V2.mat using Guid(8bf0befb68296734682237e45c19dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '5f808626f2fca411aba1afd5000c37c4') in 0.040986 seconds
+ -> (artifact id: 'b8f7f01f12c0ebc062c48d65383db06a') in 0.073684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat
+  artifactKey: Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat using Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2e43d6e15df987a09af1050e766fe8d9') in 0.127201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat
+  artifactKey: Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat using Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '81c8f1de177588786e0ed4c8bcef3d02') in 0.065483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat
+  artifactKey: Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat using Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f6c08efb1ba28ffbc225a5f876492889') in 0.061444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 735.282903 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_1_white.prefab
+  artifactKey: Guid(3865dab15f85624439f27d11cc132971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_1_white.prefab using Guid(3865dab15f85624439f27d11cc132971) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '16c68bad5e113d15229d7abdb7ab9abe') in 0.179520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_4_white.prefab
+  artifactKey: Guid(b571015d967a73b4cadb57317d7d0547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_4_white.prefab using Guid(b571015d967a73b4cadb57317d7d0547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '0bd8b5346ede55eef412da9a3e04267e') in 0.074267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_3_white_weathered.prefab
+  artifactKey: Guid(5b3cec0012220604d8aa38cd0517048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_3_white_weathered.prefab using Guid(5b3cec0012220604d8aa38cd0517048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '8641871162651bb06721ed8ad1f5e181') in 0.047621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_2_white.prefab
+  artifactKey: Guid(c77c4716527558745bd33873506541ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Prefabs/jj_door_2_white.prefab using Guid(c77c4716527558745bd33873506541ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '428c8214818a618e0506adfcb4f05f17') in 0.055036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 22.865100 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_intDoorWhite_N.png
+  artifactKey: Guid(36c6b7cccffde90489c5379d61a6a54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_intDoorWhite_N.png using Guid(36c6b7cccffde90489c5379d61a6a54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'dc14fb640ff780be32a23509f48ca438') in 0.055422 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.499516 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_dir.png
-  artifactKey: Guid(015029d2808821445b3b4faa32761c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_dir.png using Guid(015029d2808821445b3b4faa32761c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor3_white_MS.png
+  artifactKey: Guid(630f24c88d20b4c45aa62dfbb8faf982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor3_white_MS.png using Guid(630f24c88d20b4c45aa62dfbb8faf982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'b13ad43d420214d5b312598fac9063b2') in 0.028384 seconds
+ -> (artifact id: 'd0a61de32b02350308e45837260b088c') in 0.011941 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_SpecularSmoothness.png
-  artifactKey: Guid(80c1f5cf297fd0c4e847cc853c2e7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_SpecularSmoothness.png using Guid(80c1f5cf297fd0c4e847cc853c2e7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_dark_weathered_AT.png
+  artifactKey: Guid(937d4a8084b657f45bcf7deee13acbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_dark_weathered_AT.png using Guid(937d4a8084b657f45bcf7deee13acbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'fd2b9de1be55166c11027bf9efa0037b') in 0.024446 seconds
+ -> (artifact id: '5074d1868d4ed27ce24eee7c8c7d0c08') in 0.026800 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.039312 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_SpecularSmoothness.png
-  artifactKey: Guid(bf6a199938892ba48adc1e257c1f6c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_SpecularSmoothness.png using Guid(bf6a199938892ba48adc1e257c1f6c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000052 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor1_white_weathered_MS.png
+  artifactKey: Guid(bdbb28740cc6736488160c5abae88fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor1_white_weathered_MS.png using Guid(bdbb28740cc6736488160c5abae88fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '8565779af214a30cb97156cbdc94b1d0') in 0.027033 seconds
+ -> (artifact id: '1ed685fb53ea3ffd16ca92be51aa5876') in 0.015281 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.031918 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_SpecularSmoothness.png
-  artifactKey: Guid(a703548941a513a4b9d01a9b3640fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_SpecularSmoothness.png using Guid(a703548941a513a4b9d01a9b3640fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor3_white_weathered_N.png
+  artifactKey: Guid(22b1fb3f99727104c84abc7227835341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor3_white_weathered_N.png using Guid(22b1fb3f99727104c84abc7227835341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'f6dd727b8e5e07856d1a78c934e5ae8c') in 0.031508 seconds
+ -> (artifact id: '47454400a17b84605d549e2a53912087') in 0.028724 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.325336 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png
-  artifactKey: Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png using Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_white_AT.png
+  artifactKey: Guid(c42e01ab611739f4bb758a282e450297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_white_AT.png using Guid(c42e01ab611739f4bb758a282e450297) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '583f17064dc59c09c35e421c9887aa14') in 0.030316 seconds
+ -> (artifact id: 'ff791259057f123b5edeba6916ecafc9') in 0.020882 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.035218 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png
-  artifactKey: Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png using Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_AT.png
+  artifactKey: Guid(22298e305c1075343b31564a777f0f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_AT.png using Guid(22298e305c1075343b31564a777f0f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'e228ff5e577d6b31cb6a97a57f5469e6') in 0.030987 seconds
+ -> (artifact id: 'afdc5af71ad6f8c60ceaddba9b79594c') in 0.019610 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png
-  artifactKey: Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png using Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_red_AT.png
+  artifactKey: Guid(868029708cf6ea343932eaa5c801d975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_red_AT.png using Guid(868029708cf6ea343932eaa5c801d975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'bfdada0ea6c5e3ca108ab790e74d885e') in 0.032924 seconds
+ -> (artifact id: 'd958b1599cd83fe077f6b11a4d929029') in 0.019872 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040958 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png
-  artifactKey: Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png using Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_white_weathered_MS.png
+  artifactKey: Guid(cd0bc7a04ecddc34890037dcc33281d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_white_weathered_MS.png using Guid(cd0bc7a04ecddc34890037dcc33281d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'daa3920c1ec62b2419f8c2e9f3efa703') in 0.028310 seconds
+ -> (artifact id: '51dffd6160c823193a8782b890e0f9b7') in 0.012259 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.032911 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_Normal.png
-  artifactKey: Guid(96c6fb585e424844f9d5f2347f6c892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_Normal.png using Guid(96c6fb585e424844f9d5f2347f6c892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_MS.png
+  artifactKey: Guid(20b85b61c13cc724688d6f00624019da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_MS.png using Guid(20b85b61c13cc724688d6f00624019da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '78cfbf2a6d842ba7c1f222b8c449e220') in 0.024699 seconds
+ -> (artifact id: 'b63b93ed9c52f84550636050826a5af1') in 0.011272 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.471660 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png
-  artifactKey: Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png using Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '69e90eeb203f9b27e1844c330479b7af') in 0.010188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.037946 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png
-  artifactKey: Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png using Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'a9fb366665d344dd0786f6ca6afee988') in 0.014743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.190625 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png
-  artifactKey: Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png using Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '9b0f00ad770efd9763ad902d1861a7ba') in 0.015394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.026532 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AlbedoTransparency.png
-  artifactKey: Guid(8b8d88670764c144cb3ad65162664a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AlbedoTransparency.png using Guid(8b8d88670764c144cb3ad65162664a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'ba014c2b36628fdf06e19c545deaf486') in 0.022443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.038812 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png
-  artifactKey: Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png using Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'c201aa9cbef9deeba93cac5de69a2a2a') in 0.025156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.060842 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AlbedoTransparency.png
-  artifactKey: Guid(2bad03565f7a6864bb97ed2dc7d04dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AlbedoTransparency.png using Guid(2bad03565f7a6864bb97ed2dc7d04dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'e4a5330a87892a83c729abe5960d7fb1') in 0.026117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.504816 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png
-  artifactKey: Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png using Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'a444864f38875869a48a5790a91519ec') in 0.026564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.101432 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_SpecularSmoothness.png
-  artifactKey: Guid(b5068666fca838c42a2363d5e66e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_SpecularSmoothness.png using Guid(b5068666fca838c42a2363d5e66e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '239574480b566d6cda2e1bb4a73e1cee') in 0.025308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.081750 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_Normal.png
-  artifactKey: Guid(09e6479823478b7498ef88eac620c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_Normal.png using Guid(09e6479823478b7498ef88eac620c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'fcf9952c65ef6e968f7ac81ffd275b09') in 0.029198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.082660 seconds.
-  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AO.png
-  artifactKey: Guid(188ef17cbc7cb864c8f826ab6b04129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AO.png using Guid(188ef17cbc7cb864c8f826ab6b04129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '927d14f31e8652cf2bf89af84b25410c') in 0.011374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
