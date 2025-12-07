@@ -16,7 +16,6 @@
 *.physicsMaterial2D text=auto
 *.renderTexture text=auto
 *.mask text=auto
-
 # Бинарные файлы и кэш — не трогать окончания строк и не пытаться делать diff
 Library/* -text
 Temp/* -text
@@ -25,6 +24,9 @@ Build/* -text
 Builds/* -text
 Logs/* -text
 UserSettings/* -text
-
 # PackageCache тоже не заливаем вообще (самый правильный вариант)
 Library/PackageCache/** -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
